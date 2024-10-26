@@ -20,5 +20,10 @@ public class JenkinsPractise {
 	public void logout() {
 		 System.out.println("Logout");
 	}
+	
+	@Test(priority=4)
+	public void payment() {
+		System.out.println("payment");
+	}
 
 }
